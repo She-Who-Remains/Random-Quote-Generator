@@ -10,22 +10,34 @@ body{
     background-size: cover;
     /* background-repeat: no-repeat; */
 }
+
+.quote--container{
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    height: 600px;
+    margin-top: 10%;
+    /* margin: 0 auto; */
+}
 .quote--box{
     background-color: #fff;
-    width: 700px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /* width: 700px; */
+    width: 80%;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
     padding: 40px;
     border-radius: 10px;
     text-align: center;
+    /* border: 2px solid blue; */
     box-shadow: 0 10px 20px 0 rgba(75,102,12);
+    margin: 0 auto;
+
 }
 .quote--box h2{ 
     font-size: 32px;
     margin-bottom: 40px;
-    position: relative;
+    /* position: relative; */
     font-family: 'Satisfy', cursive;
 }
 .quote--box h2::after{
@@ -34,10 +46,10 @@ body{
     height: 3px;
     border-radius: 3px;
     background: #5f8575;
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
+    /* position: absolute; */
+    /* bottom: -10px; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
 }
 .quote--box blockquote{
     font-size: 30px;
